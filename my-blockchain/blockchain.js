@@ -52,8 +52,8 @@ class Blockchain {
 
 // Test the blockchain
 let myBlockchain = new Blockchain();
-myBlockchain.addBlock(new Block(1, '02/01/2023', { amount: 4 }));
-myBlockchain.addBlock(new Block(2, '03/01/2023', { amount: 10 }));
+myBlockchain.addBlock(new Block(1, '02/01/2023', { amount:  0}));
+myBlockchain.addBlock(new Block(2, '03/01/2023', { amount: 50 }));
 myBlockchain.addBlock(new Block(3, '03/01/2023', { amount: 10 }));
 
 console.log(JSON.stringify(myBlockchain, null, 4));
