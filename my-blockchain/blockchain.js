@@ -56,17 +56,3 @@ myBlockchain.addBlock(new Block(1, '02/01/2023', { amount:  0}));
 
 console.log(JSON.stringify(myBlockchain, null, 4));
 console.log('Is blockchain valid?', myBlockchain.isChainValid());
-myBlockchain.chain[1].data = { amount: 100 };
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
-console.log(JSON.stringify(myBlockchain, null, 4));
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
-myBlockchain.chain[1].data = { amount: 100 };
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
-console.log(JSON.stringify(myBlockchain, null, 4));
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
-myBlockchain.chain[1].data = { amount: 100 };
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
-console.log(JSON.stringify(myBlockchain, null, 4));
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
-myBlockchain.chain[1].data = { amount: 100 };
-console.log('Is blockchain valid?', myBlockchain.isChainValid());
